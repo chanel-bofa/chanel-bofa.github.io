@@ -3,12 +3,10 @@ html{
 	height: 100%;
 }
 body {
-	height: 100%; 
-	background-image: url("../images/bofa_background.png"); 	
-	background-size: cover; 
+	height: 100%;  
 	opacity: 1; 
 	transition: 1s opacity; 
-	background-color: black; 
+	background-color: blue; 
 }
 body.fade-out {
 	opacity: 0;
