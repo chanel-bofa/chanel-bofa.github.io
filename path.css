@@ -1,12 +1,12 @@
 html{
-	background-color: blue; 
+	background-color: powderblue; 
 	height: 100%;
 }
 body {
 	height: 100%;  
 	opacity: 1; 
 	transition: 1s opacity; 
-	background-color: blue; 
+	background-color: powderblue; 
 }
 body.fade-out {
 	opacity: 0;
