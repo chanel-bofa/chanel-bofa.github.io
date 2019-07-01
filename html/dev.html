@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/dev.css">
+	<script src="../js/dev.js"></script>
+	<body>
+		<script>document.body.className += ' fade-out';</script>
+		<button type="button" class="btn btn-default" id="back" onclick="window.location.href = '../main.html'">Back</button>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 style="color:white;"><b>Developer</b></h1>
+					<button class="devBtn" onclick="fun1()" style="margin-top: 10%;">
+						Manager
+					</button>
+					<button class="devBtn" onclick="fun2()"> 
+						Something
+					</button>
+					<button class="devBtn" onclick="fun3()"> 
+						Something1
+					</button>
+					<button class="devBtn" onclick="fun4()">
+						Something2
+						</button>
+				</div>
+				<div class="text col-md-4">
+					<b>Description<b>
+					<p id="dText">
+					</p>
+				</div>
+				<div class="text col-md-4">
+					Responsibilities
+					<p id="rText">
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn btn-default btn-lg" id="select" onclick="select()">Select</button>
+	</body>
+</html>
