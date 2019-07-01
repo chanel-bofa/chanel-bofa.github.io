@@ -26,7 +26,7 @@ class Path extends React.Component {
 	  }
 
 	renderSquare() {
-	    return <myComponent arg={hi}} />;
+	    return <myComponent arg={hi}/>;
 	}
 	render() {
 		return (
