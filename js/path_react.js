@@ -1,9 +1,9 @@
-class Component extends React.Component{
+class myComponent extends React.Component{
 	render(){
 		return (
 			<div> 
 				<h2>
-				props.arg is {this.props.arg}.
+				{this.props.arg}.
 				</h2>
 			</div>
 		);
@@ -33,9 +33,10 @@ class Path extends React.Component {
 	render() {
 		return (
 			<div>
-			{this.renderComponent('hello', false)}
-			{this.renderComponent('right', true)}
-			{this.renderComponent('World', false)}
+			{this.renderComponent("howdy"),
+			</div>
+			<div>
+			{this.renderComponent({this.state.newRole}),
 			</div>
 		);
 	}
