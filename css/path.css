@@ -1,5 +1,5 @@
 html{
-	background-color: powderblue; 
+	background-color: silver; 
 	height: 100%;
 }
 body {
@@ -8,7 +8,7 @@ body {
 	background-size: cover; 
 	opacity: 1; 
 	transition: 1s opacity; 
-	background-color: powderblue; 
+	background-color: silver; 
 }
 body.fade-out {
 	opacity: 0;
