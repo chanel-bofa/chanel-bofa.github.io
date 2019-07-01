@@ -51,7 +51,7 @@ function select(){
 	//IDS: 11=MANAGER, 12=SOMETHING, 13=SOMETHING1, 14=SOMETHING2	
 		var id = 10 + selected; 
 		if(newRole == "false"){
-				window.location = '../main.html?role=' + id;
+				window.location = '../index.html?role=' + id;
 			}
 		else{
 			var windowstring = "path.html"+ "?newRole=" +newRole +"&oldRole=" + id;
