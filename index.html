@@ -1,12 +1,30 @@
 <!doctype html>
 <html>
-	<link rel="stylesheet" type="text/css" href="path.css">
-	<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-	<script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-	<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"> </script>
-	<script type="text/babel" src="path.js" ></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/main.js"></script>
 	<body>
-		<h1>Hello World </h1>
-		<div id="root"></div>
+		<script>document.body.className += ' fade-out';</script>
+		<h2 id="title"></h2>
+			<div id="Container1" class = "container">
+				<button class="button" onclick="nextWindow('html/dev.html')">
+					<div class="label">Developer</div>
+				</button>
+			</div>
+			<div id="Container2" class= "container">
+				<button class="button" onclick="nextWindow('html/dev.html')"> 
+					<div class="label">SQA</div>
+				</button>
+			</div>
+			<div id="Container3" class= "container">
+				<button class="button" onclick="nextWindow('html/dev.html')"> 
+					<div class="label">BA</div>
+				</button>
+			</div>
+			<div id="Container4" class= "container">
+				<button class="button" onclick="nextWindow('html/dev.html')">
+					<div class="label">Something</div>
+				</button>
+			</div>
 	</body>
 </html>
