@@ -8,7 +8,7 @@ function getParameterByName(name, url) {
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
 }
 
-class Component extends React.Component{
+class myComponent extends React.Component{
 	render(){
 		return (
 			<div> 
@@ -21,10 +21,20 @@ class Component extends React.Component{
 }
 
 class Path extends React.Component {
+	constructor(props) {
+	    super(props);
+	  }
+
+	renderSquare() {
+	    return <myComponent arg={hi}} />;
+	}
 	render() {
 		return (
 			<div>
 				<h2>im the path</h2>
+				<div>
+					{this.renderComponent()}
+				</div>
 			</div>
 		);
 	}
