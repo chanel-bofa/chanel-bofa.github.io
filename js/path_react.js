@@ -33,10 +33,12 @@ class Path extends React.Component {
 	render() {
 		return (
 			<div>
-			{this.renderComponent("howdy"),
+			Hello
+			{this.renderComponent("howdy")}
 			</div>
+			World
 			<div>
-			{this.renderComponent({this.state.newRole}),
+			{this.renderComponent({this.state.newRole})}
 			</div>
 		);
 	}
