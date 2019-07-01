@@ -21,15 +21,10 @@ class Component extends React.Component{
 }
 
 class Path extends React.Component {
-	renderComponent(arg, isArrow){
-		return <Component isArrow={isArrow} arg={arg}>;
-	}
 	render() {
 		return (
 			<div>
-			{this.renderComponent('hello', false)}
-			{this.renderComponent('right', true)}
-			{this.renderComponent('World', false)}
+				<h2>im the path</h2>
 			</div>
 		);
 	}
