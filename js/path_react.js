@@ -27,16 +27,16 @@ class Path extends React.Component {
 	    if (!results[2]) return '';
 	    return decodeURIComponent(results[2].replace(/\+/g, ' '));
 	}
-	renderComponent(arg, isArrow){
-		return <Component isArrow={isArrow} arg={arg}>;
+	renderComponent(arg){
+		const component = React.createElement(myComponent, {arg: "hello world!"});
+		return component;
 	}
 	render() {
 		return (
 			<div>
-			Hello
+			<h2>I'm the path</h2>
 			{this.renderComponent("howdy")}
 			</div>
-			World
 			<div>
 			{this.renderComponent({this.state.newRole})}
 			</div>
