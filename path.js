@@ -20,7 +20,7 @@ class Component extends React.Component{
 	}
 }
 
-class Path extends React.component {
+class Path extends React.Component {
 	renderComponent(arg, isArrow){
 		return <Component isArrow={isArrow} arg={arg}>;
 	}
@@ -32,7 +32,7 @@ class Path extends React.component {
 			{this.renderComponent('World', false)}
 			</div>
 		);
-	};
+	}
 	
 }
 
