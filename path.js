@@ -22,7 +22,7 @@ class Component extends React.Component{
 
 class Path extends React.component {
 	renderComponent(arg, isArrow){
-		return <Component isArrow={isArrow} arg={arg}>
+		return <Component isArrow={isArrow} arg={arg}>;
 	}
 	render() {
 		return (
