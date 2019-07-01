@@ -33,12 +33,14 @@ class Path extends React.Component {
 	}
 	render() {
 		return (
-			<div>
-			<h2>I'm the path</h2>
-			{this.renderComponent("howdy")}
-			</div>
-			<div>
-			{this.renderComponent({this.state.newRole})}
+			<div id="path_holder">
+				<div>
+				<h2>I'm the path</h2>
+				{this.renderComponent("howdy")}
+				</div>
+				<div>
+				{this.renderComponent({this.state.newRole})}
+				</div>
 			</div>
 		);
 	}
