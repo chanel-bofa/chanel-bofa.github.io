@@ -39,7 +39,7 @@ class Path extends React.Component {
 				{this.renderComponent("howdy")}
 				</div>
 				<div>
-				{this.renderComponent({this.state.newRole})}
+				{this.renderComponent(this.state.newRole)}
 				</div>
 			</div>
 		);
