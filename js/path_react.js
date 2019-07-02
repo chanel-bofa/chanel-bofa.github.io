@@ -33,6 +33,7 @@ class Path extends React.Component {
 	}
 	render() {
 		return (
+			/*
 			<div id="path_holder">
 				<div>
 				<h2>I'm the path</h2>
@@ -42,6 +43,8 @@ class Path extends React.Component {
 				{this.renderComponent(this.state.newRole)}
 				</div>
 			</div>
+			*/
+			<h2>Hello There </h2>
 		);
 	}
 	
