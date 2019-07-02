@@ -1,4 +1,4 @@
-class myComponent extends React.Component{
+class MyComponent extends React.Component{
 	render(){
 		return (
 			<div> 
@@ -28,12 +28,12 @@ class Path extends React.Component {
 	    return decodeURIComponent(results[2].replace(/\+/g, ' '));
 	}
 	renderComponent(arg){
-		const component = React.createElement(myComponent, {arg: "hello world!"});
+		const component = React.createElement(MyComponent, {arg: "hello world!"});
 		return component;
 	}
 	render() {
 		return (
-			/*
+			
 			<div id="path_holder">
 				<div>
 				<h2>I'm the path</h2>
@@ -43,8 +43,9 @@ class Path extends React.Component {
 				{this.renderComponent(this.state.newRole)}
 				</div>
 			</div>
-			*/
-			<h2>Hello There </h2>
+			<div>
+				<h2>Hello There </h2>
+			</div>
 		);
 	}
 	
