@@ -28,8 +28,8 @@ class Path extends React.Component {
 	    return decodeURIComponent(results[2].replace(/\+/g, ' '));
 	}
 	renderComponent(arg){
-		const component = React.createElement(MyComponent, {arg: "hello world!"});
-		return component;
+		const Component = React.createElement(MyComponent, {arg: "hello world!"});
+		return Component;
 	}
 	render() {
 		return (
