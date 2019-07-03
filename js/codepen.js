@@ -1,3 +1,4 @@
+var a = ["howdy", "y'all", "yeehaw"];
 class MyComponent extends React.Component{
   returnArrow(arg){
     var answer = <h2>{arg}</h2>;
@@ -9,11 +10,22 @@ class MyComponent extends React.Component{
     return answer;
   }
   render(){
+    var test = ['a', '-->', 'c'];
+    var testList= this.props.arg.map(function(name){
+      return <button>{name}</button>
+    })
+    return (
+      <div>
+      {testList}
+      </div>
+    );
+    /*
     return(
 			<div> 
 				{this.returnArrow(this.props.arg)}
 			</div>
 		);
+    */
 	}
  }
 
@@ -44,10 +56,10 @@ class Path extends React.Component {
 			<div id="path_holder">
 				<div>
 				<h2>I'm the path</h2>
-				{this.renderComponent("howdy")}
+				{this.renderComponent(a)}
 				</div>
 				<div>
-				{this.renderComponent("right")}
+				{this.renderComponent(a)}
 				</div>
 			</div>
 		);
