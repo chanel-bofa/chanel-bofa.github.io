@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/sqa.css">
+	<script src="../js/sqa.js"></script>
+	<script src="../js/des_resp.js"></script>
+	<body>
+		<script>document.body.className += ' fade-out';</script>
+		<button type="button" class="btn btn-default" id="back" onclick="window.location.href = '../main.html'">Back</button>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h1 style="color:white;"><b>Developer</b></h1>
+					<button class="devBtn" onclick="role(1)" style="margin-top: 10%;">
+						SQA Tester
+					</button>
+					<button class="devBtn" onclick="role(2)"> 
+						SQA Team Lead
+					</button>
+					<button class="devBtn" onclick="role(3)"> 
+						SQA Senior Lead
+					</button>
+					<button class="devBtn" onclick="role(4)">
+						SQA Team Manager
+					</button>
+					<button class="devBtn" onclick="role(5)">
+						SQA Senior Manager
+					</button>
+				</div>
+				<div class="text col-md-4">
+					<b>Description<b>
+					<p id="dText">
+					</p>
+				</div>
+				<div class="text col-md-4">
+					Responsibilities
+					<p id="rText">
+					</p>
+				</div>
+			</div>
+		</div>
+		<button type="button" class="btn btn-default btn-lg" id="select" onclick="select()">Select</button>
+	</body>
+</html>
