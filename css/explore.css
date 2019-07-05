@@ -1,0 +1,58 @@
+html{
+	background-color: black; 
+	height: 100%;
+}
+body {
+	height: 100%; 
+	background-image: url("../images/bofa_background.png"); 	
+	background-size: cover; 
+	opacity: 1; 
+	transition: 1s opacity; 
+	background-color: black; 
+}
+body.fade-out {
+	opacity: 0;
+    transition: none;
+}
+.container{
+	padding-top: 5%;
+}
+.row{
+	height: 150px;
+	display: flex; 
+}
+.col{
+	display: flex;
+	align-items: center;
+}
+.longArrow{
+	width: 100%; 
+}
+.tallArrow{
+	height: 100%; 
+}
+#reset{
+	margin-top: 10px; 
+	margin-left: 10px;
+	
+}
+.vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.role {
+  background-color: silver;
+  color: black; 
+  border: 2px solid black; 
+  font-size: 16px;
+  border-radius: 3px; 
+}
+.button {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
